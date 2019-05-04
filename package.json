@@ -1,0 +1,29 @@
+{
+  "name": "stable-roommates-problem",
+  "version": "1.0.0",
+  "description": "Javascript implementation of the Irving's algorithm for the stable roommates problem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfornari/stable-roommates-problem.git"
+  },
+  "keywords": [
+    "stable-roommates-problem",
+    "irving"
+  ],
+  "author": "Giacomo Fornari <fornarigiacomo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfornari/stable-roommates-problem/issues"
+  },
+  "homepage": "https://github.com/gfornari/stable-roommates-problem#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  },
+  "dependencies": {
+    "seedrandom": "^3.0.1"
+  }
+}
