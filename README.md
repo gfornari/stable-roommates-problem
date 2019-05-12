@@ -23,7 +23,7 @@ where a row *i* is the ordered list of preferences of *i*.
 
 This implementation of the algorithm doesn't support partial lists of preferences, but there's a trick.
 
-If you don't want to proved full lists of preferences, the function `fillWithRandom` of `utils.js` can help you filling randomly the remaining preferences. Be aware that in this way you could end up with no stable matching. A simple workaround is to re-run the algorithm with newly random filled preferences lists. You can find an example of this in the `index.js` file.
+If you don't want to provide full lists of preferences, the function `fillWithRandom` of `utils.js` can help you filling randomly the remaining preferences. Be aware that in this way you could end up with no stable matching. A simple workaround is to re-run the algorithm with newly random filled preferences lists. You can find an example of this in the `index.js` file.
 
 ## Complexity
 
